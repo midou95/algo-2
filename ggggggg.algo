@@ -1,0 +1,24 @@
+ALGORITHM 
+VAR
+tab : ARRAY_OF INTEGER[];
+tab1: ARRAY_OF INTEGER [];
+tab2: ARRAY_OF INTEGER [];
+sum:=0
+    
+BEGIN
+read(tab1)
+read(tab2)
+tab:=tab1+tab2
+
+FOR i FROM 0 TO i < tab.length-1 STEP step  DO
+    FOR j FROM j=i+1 TO tab.length STEP step  DO
+IF (tab[i] <> tab[j]) THEN
+    sum:=tab[i]+tab[j]
+END_IF
+       
+    END_FOR
+END_FOR
+write(sum)
+
+    
+END
